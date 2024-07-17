@@ -25,3 +25,20 @@ const revealSection = () => {
 
 window.addEventListener('scroll', revealSection);
 revealSection(); // Initial call to reveal any sections already in view
+
+// Function to show tasks based on feature clicked
+function showTasks(feature) {
+    switch (feature) {
+        case 'mustbedone':
+            alert('Tasks that must be done:\n - Task 1\n - Task 2');
+            break;
+        case 'ongoing':
+            alert('Ongoing tasks:\n - Task A\n - Task B');
+            break;
+        case 'done':
+            alert('Tasks that are done:\n - Completed Task X\n - Completed Task Y');
+            break;
+        default:
+            break;
+    }
+}
