@@ -21,10 +21,36 @@ nav a {
     text-align: center;
 }
 
+#intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full viewport height */
+    background-image: url('images/cover.jpg'); /* Background image */
+    background-size: cover; /* Ensure the image covers the whole area */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent tiling */
+    color: white; /* Ensure text is readable */
+    text-align: center;
+}
+
 #intro img {
-    width: 100%;
-    max-height: 400px;
-    object-fit: cover;
+    display: none; /* Hide the img element as we are using it as a background */
+}
+
+#intro h1 {
+    font-size: 3em;
+    margin: 0.5em 0;
+}
+
+#intro p {
+    font-size: 1.5em;
+    margin: 0.5em 0;
+}
+
+#intro .button {
+    margin-top: 1em;
 }
 
 .feature {
