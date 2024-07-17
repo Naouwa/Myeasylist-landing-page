@@ -28,7 +28,7 @@ nav a {
     justify-content: center;
     height: 100vh; /* Full viewport height */
     background-image: url('images/cover.png'); /* Background image */
-    background-size: contain; /* Ensure the image covers the whole area */
+    background-size: cover; /* Ensure the image covers the whole area */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Prevent tiling */
     /*color: white;  Ensure text is readable */
@@ -40,7 +40,7 @@ nav a {
     margin: 0.5em 0;
     color: #ff1493;
     border: 2px solid black;
-    padding: 10px;
+    padding:  0.2em 0.5em;
     display: inline-block;
 }
 
@@ -49,7 +49,7 @@ nav a {
     margin: 0.5em 0;
     color: #800080;
     border: 2px solid black;
-    padding: 10px;
+    padding:  0.2em 0.5em;
     display: inline-block;
 
 }
