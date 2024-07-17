@@ -35,10 +35,6 @@ nav a {
     text-align: center;
 }
 
-#intro img {
-    display: none; /* Hide the img element as we are using it as a background */
-}
-
 #intro h1 {
     font-size: 3em;
     margin: 0.5em 0;
