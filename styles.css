@@ -27,39 +27,24 @@ nav a {
     align-items: center;
     justify-content: center;
     height: 100vh; /* Full viewport height */
-    background-image: url('images/cover.jpg'); /* Background image */
+    background-image: url('images/cover.png'); /* Background image */
     background-size: cover; /* Ensure the image covers the whole area */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Prevent tiling */
-    color: white; /* Ensure text is readable */
+    /*color: white;  Ensure text is readable */
     text-align: center;
-    position: relative; /* Position context for overlay */
 }
-
-#intro::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.4); /* Adjust opacity as needed */
-    z-index: -1; /* Ensure the overlay is behind the text */
 
 #intro h1 {
     font-size: 5em;
     margin: 0.5em 0;
     color: #ff1493;
-    position: relative; /* Ensure text appears above the overlay */
-    z-index: 1; /* Keep text above the overlay */
 }
 
 #intro p {
     font-size: 2em;
     margin: 0.5em 0;
     color: #800080;
-    position: relative; /* Ensure text appears above the overlay */
-    z-index: 1; /* Keep text above the overlay */
 }
 
 #intro .button {
