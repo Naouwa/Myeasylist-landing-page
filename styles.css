@@ -38,13 +38,13 @@ nav a {
 #intro h1 {
     font-size: 5em;
     margin: 0.5em 0;
-    color: pink;
+    color: #ff1493;
 }
 
 #intro p {
     font-size: 2em;
     margin: 0.5em 0;
-    color: purple;
+    color: #800080;
 }
 
 #intro .button {
