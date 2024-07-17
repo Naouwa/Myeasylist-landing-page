@@ -33,7 +33,17 @@ nav a {
     background-repeat: no-repeat; /* Prevent tiling */
     color: white; /* Ensure text is readable */
     text-align: center;
+    position: relative; /* Position context for overlay */
 }
+
+#intro::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* Adjust opacity as needed */
 
 #intro h1 {
     font-size: 5em;
