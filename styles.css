@@ -39,19 +39,12 @@ nav a {
     font-size: 5em;
     margin: 0.5em 0;
     color: #ff1493;
-    border: 2px solid black;
-    padding:  0.2em 0.5em;
-    display: inline-block;
 }
 
 #intro p {
     font-size: 2em;
     margin: 0.5em 0;
     color: #800080;
-    border: 2px solid black;
-    padding:  0.2em 0.5em;
-    display: inline-block;
-
 }
 
 #intro .button {
